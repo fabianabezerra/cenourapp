@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="com.ufabianabezerra.cenouraapp">
+	<plugin name="cordova-plugin-splashscreen" />
+	<plugin name="cordova-plugin-crosswalk-webview" />
+	<name>Só de Cenoura</name>
+
+	<description>
+	    Primeiro aplicativo mobile, simulando o menu de um restaurante.
+	</description>
+
+	<author>
+	    Fabiana Bezerra
+	</author>
+
+	<icon src="icon.png" />
+
+    <splash src="splash.png" />
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <platform name="android" />
+
+</widget>
